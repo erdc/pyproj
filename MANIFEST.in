@@ -1,0 +1,23 @@
+include README
+include MANIFEST.in
+include LICENSE_proj4
+include LICENSE_geographiclib
+include Changelog
+include create_docs.sh
+include _proj.pyx
+include _proj.c
+include nad2bin.c
+include src/*.c
+include src/*.h
+include setup-proj.py
+include lib/pyproj/*py
+include lib/pyproj/data/*
+include datumgrid/*.lla
+include test/test.py
+include test/test2.py
+include test/sample.out
+include test/datum_shift.py
+include test/test_transform.py
+include test/geodtest.py
+include test/test_datum.py
+recursive-include docs *
